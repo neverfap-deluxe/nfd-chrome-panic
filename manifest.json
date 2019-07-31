@@ -1,0 +1,28 @@
+{
+  "name": "NeverFap Deluxe NSFW Reddit Blocker",
+  "short_name": "nfd-nsfw-reddit",
+  "version": "1.0",
+  "description": "NeverFap Deluxe is a comprehensive porn addiction recovery process.",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["src/background.js"],
+    "persistent": false
+  },
+  "options_page": "src/options.html",
+  "page_action": {
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "icons/logo16.png",
+      "32": "icons/logo32.png",
+      "48": "icons/logo48.png",
+      "128": "icons/logo128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/logo16.png",
+    "32": "icons/logo32.png",
+    "48": "icons/logo48.png",
+    "128": "icons/logo128.png"
+  },
+  "manifest_version": 2
+}
